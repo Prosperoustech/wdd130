@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+} */
+:root {
+    --primary-color: #4464AD;
+    --secondary-color: #320E3B;
+    --accent1-color: #85CB33;
+    --accent2-color:#E1E5EE;
+
+    --heading-font:'Roboto-Condensed', serif;
+    --paragraph-font: 'Roboto-Condensed', serif;
+
+    --nav-background-color: #4464AD;
+    --nav-link-color:#E1E5EE;
+    --nav-hover-link-color:#85CB33;
+    --nav-hover-background-color:#4464AD;
+}
+h1, h2, p {
+    color: var(--primary-color);
+}
+footer a {
+    text-decoration: none;
+}
+.hero {
+    position: relative;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.hero h1 {
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    color: var(--accent2-color);
+}
+.hero article {
+    position: absolute;
+    top: 40px;
+    color: var(--accent2-color);
+}
+.hero article img {
+    position: absolute;
+    width: 100px;
+    left: 0px;
+}
+.hero article p {
+    color: var(--accent2-color);
+}
