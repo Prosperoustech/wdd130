@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <meta name="description" content="Prosper Bright E | WDD 130 | About Page">
+  <meta name="author" content="Prosper Bright E">
+  <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+  <header>
+    <img class="logo" src="images/rafting-logo.png" alt="logo">
+    <nav class="navigation">
+      <a href="index.html">Homepage</a>
+      <a href="about.html">About</a>
+      <a href="trips.html">Trips</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <form>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <div class="form-item column2">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname"><br>
+            </div>
+            <div class="form-item column2">
+                <label for="useremail">Email:</label>
+                <input type="email" id="useremail" name="useremail">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Questions</legend>
+            <div class="form-item column1">
+                <label for="select">What is your favorite location?</label><br>
+                <select id="select" name="browser">
+                    <option value="" selected disabled>Choose One...</option>
+                    <option value="chrome">California</option>
+                    <option value="safari">Safari</option>
+                    <option value="Ask">New York</option>
+                    <option value="mozilla-firefox">Texas</option>
+                </select><br>
+            </div>
+            <div class="form-item column1">
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet"><br><br>
+            </div>
+            <label for="feedback">List the places you have lived:</label><br>
+            <textarea id="feedback" name="feedback" rows="4" placeholder="Lagos Nigeria, Aba-Temple Nigeria,  Plateau Jos">></textarea>
+        </fieldset>
+        <button type="submit">Submit Poll</button>
+    </form>
+  </main>
+  <footer>
+    <p>© 2024 🌴 White Water Rafting 🌴 Prosper Bright</p>
+    <nav class="sociallinks">
+      <a href="www.facebook.com">
+        <img src="images/facebook-logo.webp" alt="facebook logo">
+      </a>
+      <a href="www.linkedin.com">
+        <img src="images/linkedin-logo.webp" alt="linkedin logo">
+      </a>
+      <a href="www.instagram.com">
+         <img src="images/instagram-logo.webp" alt="instagram logi">
+      </a>
+    </nav>
+  </footer>
+</body>
+</html>
