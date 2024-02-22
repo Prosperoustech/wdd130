@@ -51,7 +51,7 @@ nav{
 .navigation{
 	display: flex;
 	list-style: none;
-    justify-items: space-around;
+
 }
 
 .navigation a{

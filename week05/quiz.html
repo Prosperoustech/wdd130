@@ -1,11 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Basic HTML and CSS Quiz</h1>
-</body>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <title>WDD 130 | HTML and CSS Quiz - Basic HTML and CSS Quiz</title>
+        <meta name="description" content="Basic HTML and CSS Quiz page">
+        <meta name="author" content="Prosper Bright">
+        <link href="styles/quiz.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>☑ Basic HTML and CSS Quiz</h1>
+        </header>
+        <main>
+            <form>
+                <fieldset>
+                    <label for="q1"><span>1.</span> What does the acronym CSS stands for?</label><br>
+                    <input type="text" id="q1" name="q1"><br>
+                    <label for="q2"><span>2.</span> How are id and class attributes selected in CSS?</label><br>
+                    <textarea id="q2" name="q2"></textarea><br>
+                    <label for="q3"><span>3.</span> Which of the following is a valid CSS comment?</label><br>
+                    <select id="q3" name="q3">
+                        <option value="" selected disabled>Choose One ...</option>
+                        <option value="comment 1">/* box-sizing: border-box; */</option>
+                        <option value="comment 2">!* box-sizing: border-box; */</option>
+                        <option value="comment 3">!* box-sizing: border-box; *!</option>
+                    </select><br>
+                    <label for="q4"><span>4.</span> What is the bottom margin given this declaration?</label><br>
+                    <div><img src="images/quiz-img.png" alt="margin declaration"></div><br>
+                    <input type="number" id="q4" name="q4">
+                </fieldset>
+                <button type="submit" >Submit Quiz</button>
+            </form>
+        </main>
+    </body>
 </html>
